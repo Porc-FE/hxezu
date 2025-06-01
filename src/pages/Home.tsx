@@ -1,17 +1,20 @@
-import React from "react";
 import styled from "@emotion/styled";
 
-const Button = styled.button`
-  background-color: hotpink;
-  color: white;
-  border: none;
-  padding: 8px 16px;
+const HomeContainer = styled.div`
+  height: 100vh;
+  padding: 80px;
+  display: flex;
+  align-items: flex-end;
 
-  &:hover {
-    background-color: deeppink;
+  h1 {
+    font-size: 20rem;
   }
 `;
 
 export default function Home() {
-  return <Button>Click Me</Button>;
+  return (
+    <HomeContainer>
+      <h1>Portfolio</h1>
+    </HomeContainer>
+  );
 }

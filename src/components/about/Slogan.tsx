@@ -2,13 +2,18 @@ import styled from "@emotion/styled";
 
 const SloganContainer = styled.div`
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-size: 1.5rem;
   gap: 2rem;
   strong {
     color: var(--primary-300);
+  }
+  span {
+    font-weight: 500;
   }
 `;
 
@@ -20,8 +25,12 @@ export default function Slogan() {
         <span>현혜주</span>입니다.
       </p>
       <div>
-        <p>사용자의 시선에서 문제를 정의하고,</p>
-        <p>감각적이면서도 일관된 경험을 설계하여 구현하겠습니다.</p>
+        <p>
+          <span>사용자의 시선</span>에서 문제를 정의하고,
+        </p>
+        <p>
+          <span>감각적이면서도 일관된 경험</span>을 설계하여 구현하겠습니다.
+        </p>
       </div>
     </SloganContainer>
   );

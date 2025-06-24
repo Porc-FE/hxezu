@@ -1,12 +1,25 @@
 import styled from "@emotion/styled";
 import InfoBlock from "./InfoBlock";
+import html from "../../assets/images/html.svg";
+import css from "../../assets/images/css.svg";
+import typescript from "../../assets/images/typescript.svg";
+import next from "../../assets/images/next.svg";
+import js from "../../assets/images/javascript.svg";
+import react from "../../assets/images/react.svg";
+import gsap from "../../assets/images/gsap.svg";
+import github from "../../assets/images/github.svg";
+import figma from "../../assets/images/figma.svg";
+import slack from "../../assets/images/slack.svg";
+import notion from "../../assets/images/notion.svg";
+import discord from "../../assets/images/discord.svg";
 
 const RightInfoContainer = styled.div`
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
   padding: 10rem 0;
+  box-sizing: border-box;
   align-items: center;
 `;
 
@@ -58,13 +71,59 @@ export default function RightInfo() {
         <ul className="row-list">
           <li>
             <div className="hashtag"># 감각적인</div>
+          </li>
+          <li>
             <div className="hashtag"># 열정적인</div>
+          </li>
+          <li>
             <div className="hashtag"># 아이디어 뱅크</div>
           </li>
         </ul>
       </InfoBlock>
-      <InfoBlock title="SKILLS">skill</InfoBlock>
-      <InfoBlock title="TOOLS">skill</InfoBlock>
+      <InfoBlock title="SKILLS">
+        <ul className="row-list">
+          <li>
+            <img src={html} alt="" />
+          </li>
+          <li>
+            <img src={css} alt="" />
+          </li>
+          <li>
+            <img src={typescript} alt="" />
+          </li>
+          <li>
+            <img src={js} alt="" />
+          </li>
+          <li>
+            <img src={react} alt="" />
+          </li>
+          <li>
+            <img src={next} alt="" />
+          </li>
+          <li>
+            <img src={gsap} alt="" />
+          </li>
+        </ul>
+      </InfoBlock>
+      <InfoBlock title="TOOLS">
+        <ul className="row-list">
+          <li>
+            <img src={github} alt="" />
+          </li>
+          <li>
+            <img src={figma} alt="" />
+          </li>
+          <li>
+            <img src={slack} alt="" />
+          </li>
+          <li>
+            <img src={notion} alt="" />
+          </li>
+          <li>
+            <img src={discord} alt="" />
+          </li>
+        </ul>
+      </InfoBlock>
     </RightInfoContainer>
   );
 }

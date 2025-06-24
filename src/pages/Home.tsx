@@ -2,6 +2,8 @@ import styled from "@emotion/styled";
 
 const HomeContainer = styled.div`
   height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
   padding: 80px 80px 0px 80px;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,7 @@ const HomeContainer = styled.div`
   .info {
     width: 100%;
     padding: 0 20px 0 20px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     font-weight: 200;

@@ -36,6 +36,7 @@ const Detail = styled.div`
 
   .row-list {
     display: flex;
+    gap: 1rem;
   }
 
   .col-list li {
@@ -43,14 +44,14 @@ const Detail = styled.div`
     gap: 2rem;
   }
 
-  .row-list li {
-    display: flex;
-    gap: 1rem;
-  }
-
   li span {
     font-weight: 500;
     width: 80px;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
   }
 `;
 

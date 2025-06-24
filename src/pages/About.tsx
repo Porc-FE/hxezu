@@ -3,6 +3,7 @@ import Slogan from "../components/about/Slogan";
 import MyInfo from "../components/about/MyInfo";
 
 const AboutContainer = styled.div`
+  width: 100vw;
   padding: 10rem 0 10rem 0;
   background-color: white;
   color: var(--gray-400);

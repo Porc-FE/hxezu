@@ -13,6 +13,7 @@ const Nav = styled.nav`
   align-items: center;
   height: auto;
   padding: 3rem 6rem 0rem 6rem;
+  box-sizing: border-box;
   justify-content: space-between;
 `;
 

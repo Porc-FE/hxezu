@@ -1,6 +1,10 @@
 :root {
   --white: #f9f9fb;
   --primary-300: #0064ff;
+  --gray-400: #202632;
+  --gray-300: #5f636d;
+  --gray-200: #e6e6e6;
+  --gray-100: #e9eaed;
 }
 
 @font-face {
@@ -64,9 +68,91 @@
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+li {
+  list-style: none;
+}
+address,
+em,
+i {
+  font-style: normal;
+}
+button {
+  background: none;
+  border: none;
+}
+img {
+  vertical-align: middle;
 }
 
 html,

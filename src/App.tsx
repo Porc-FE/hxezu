@@ -3,6 +3,7 @@ import Header from "./components/common/header/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
+import Contact from "./pages/Contact";
 
 const MainContainer = styled.div`
   width: 100%;
@@ -17,6 +18,7 @@ export default function App() {
         <Home />
         <About />
         <Work />
+        <Contact />
       </MainContainer>
     </>
   );

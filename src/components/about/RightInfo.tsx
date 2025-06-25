@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import InfoBlock from "./InfoBlock";
+import InfoBlock from "../common/MyInfoBlock";
 import html from "../../assets/images/html.svg";
 import css from "../../assets/images/css.svg";
 import typescript from "../../assets/images/typescript.svg";

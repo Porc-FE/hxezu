@@ -3,19 +3,19 @@ import styled from "@emotion/styled";
 const ProjectInfoBlockContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.8rem;
+  font-size: 0.8rem;
 `;
 
 const ProjectInfoItem = styled.div`
   display: flex;
-
   p {
     font-weight: 200;
   }
 `;
 
 const Label = styled.h3`
-  width: 200px;
+  width: 180px;
   font-weight: 500;
   text-align: left;
 `;

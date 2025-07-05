@@ -18,7 +18,7 @@ const HomeContainer = styled.div`
   }
 
   h1 {
-    font-size: 25rem;
+    font-size: 20rem;
   }
 
   .info {

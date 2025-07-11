@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 import Index from "../components/work/index/Index";
 import FirstProject from "../components/work/first/FirstProject";
+import SecondProject from "../components/work/second/SecondProject";
 
 const WorkContainter = styled.div`
   width: 100%;
@@ -14,6 +15,7 @@ export default function Work() {
     <WorkContainter>
       <Index />
       <FirstProject />
+      <SecondProject />
     </WorkContainter>
   );
 }
